@@ -1,0 +1,19 @@
+2026-07-11 14:31:13,769 | INFO | __main__ | Application started.
+2026-07-11 14:31:13,772 | INFO | __main__ | Parsed arguments: symbol=BTCUSDT side=BUY type=MARKET quantity=0.01 price=None stop_price=None
+2026-07-11 14:31:13,773 | INFO | __main__ | Validation succeeded for order request.
+2026-07-11 14:31:15,827 | INFO | trading_bot.bot.client | Binance client created for testnet environment.
+2026-07-11 14:31:16,055 | INFO | trading_bot.bot.client | Binance API ping successful.
+2026-07-11 14:31:16,055 | INFO | trading_bot.bot.orders | Placing market order: symbol=BTCUSDT side=BUY quantity=0.01
+2026-07-11 14:31:17,002 | INFO | trading_bot.bot.orders | Market order response received: orderId=41283042389
+2026-07-11 14:31:17,003 | INFO | __main__ | Order placed successfully. orderId=41283042389
+2026-07-11 14:31:17,003 | INFO | __main__ | Execution completed in 3.233 seconds.
+2026-07-11 14:32:37,430 | INFO | __main__ | Application started.
+2026-07-11 14:32:37,433 | INFO | __main__ | Parsed arguments: symbol=ETHUSDT side=SELL type=LIMIT quantity=0.05 price=3500 stop_price=None
+2026-07-11 14:32:37,434 | INFO | __main__ | Validation succeeded for order request.
+2026-07-11 14:32:41,236 | INFO | trading_bot.bot.client | Binance client created for testnet environment.
+2026-07-11 14:32:43,242 | INFO | trading_bot.bot.client | Binance API ping successful.
+2026-07-11 14:32:43,242 | INFO | trading_bot.bot.orders | Placing limit order: symbol=ETHUSDT side=SELL quantity=0.05 price=3500.0
+2026-07-11 14:32:45,648 | INFO | trading_bot.bot.orders | Limit order response received: orderId=41283042390
+2026-07-11 14:32:45,649 | INFO | __main__ | Order placed successfully. orderId=41283042390
+2026-07-11 14:32:45,649 | INFO | __main__ | Execution completed in 4.218 seconds.
+,
